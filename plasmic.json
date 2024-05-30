@@ -5,6 +5,10 @@
     "scheme": "blackbox",
     "reactRuntime": "classic"
   },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
   "images": {
     "scheme": "public-files",
     "publicDir": "../public",
@@ -16,8 +20,289 @@
   },
   "srcDir": "components",
   "defaultPlasmicDir": "./plasmic",
-  "projects": [],
-  "globalVariants": {},
+  "projects": [
+    {
+      "projectId": "43bHReTRfqiibt3XiSfGTQ",
+      "projectApiToken": "ChYAY5lFEBH4gQ7lUEsZPF3syQaI0BXbbXZM4lQIridb1Tk3DSWhuGwcxz9aiIsngkkykdUdqHXeJ57V60A",
+      "projectName": "bootcamp",
+      "version": "latest",
+      "cssFilePath": "plasmic/bootcamp/plasmic.module.css",
+      "components": [
+        {
+          "id": "UwzLGpuSf6Tq",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "43bHReTRfqiibt3XiSfGTQ",
+          "renderModuleFilePath": "plasmic/bootcamp/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../src/pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/bootcamp/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "waPsxHy97XPY",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "43bHReTRfqiibt3XiSfGTQ",
+          "renderModuleFilePath": "plasmic/bootcamp/PlasmicNewPage.tsx",
+          "importSpec": {
+            "modulePath": "../src/pages/profile.tsx"
+          },
+          "cssFilePath": "plasmic/bootcamp/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/profile"
+        },
+        {
+          "id": "f12pkppDyohP",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "43bHReTRfqiibt3XiSfGTQ",
+          "renderModuleFilePath": "plasmic/bootcamp/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/bootcamp/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "CpfRGVR29c8h",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/bootcamp/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "q_C_DmEehEDc",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/bootcamp/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "iKGPmsAfFh-D",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/bootcamp/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "IRj--URvT-EH",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/bootcamp/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "mtNvedioPx8g",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/bootcamp/icons/PlasmicIcon__Icon5.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "u9hKWBjA7ueg",
+          "name": "image",
+          "filePath": "../public/plasmic/bootcamp/images/image.png"
+        },
+        {
+          "id": "2UfueqVVDsfh",
+          "name": "image 2",
+          "filePath": "../public/plasmic/bootcamp/images/image2.svg"
+        },
+        {
+          "id": "qRTFyX_f7oTL",
+          "name": "image 3",
+          "filePath": "../public/plasmic/bootcamp/images/image3.png"
+        },
+        {
+          "id": "sCFnZjGlf5Se",
+          "name": "image 4",
+          "filePath": "../public/plasmic/bootcamp/images/image4.png"
+        },
+        {
+          "id": "znIO4qybxgrk",
+          "name": "image 5",
+          "filePath": "../public/plasmic/bootcamp/images/image5.png"
+        },
+        {
+          "id": "WSyo6Cyy07pz",
+          "name": "image 6",
+          "filePath": "../public/plasmic/bootcamp/images/image6.png"
+        },
+        {
+          "id": "qOmn4-yRnfJR",
+          "name": "image 7",
+          "filePath": "../public/plasmic/bootcamp/images/image7.svg"
+        },
+        {
+          "id": "se6oVom4Koz1",
+          "name": "image 8",
+          "filePath": "../public/plasmic/bootcamp/images/image8.png"
+        },
+        {
+          "id": "JRClMTbc5Hm2",
+          "name": "image 9",
+          "filePath": "../public/plasmic/bootcamp/images/image9.png"
+        },
+        {
+          "id": "qFjjGkNHtDkL",
+          "name": "image 10",
+          "filePath": "../public/plasmic/bootcamp/images/image10.png"
+        },
+        {
+          "id": "xWABOEstMZ5j",
+          "name": "image 11",
+          "filePath": "../public/plasmic/bootcamp/images/image11.png"
+        },
+        {
+          "id": "QKLp3r9L9l1U",
+          "name": "image 12",
+          "filePath": "../public/plasmic/bootcamp/images/image12.png"
+        },
+        {
+          "id": "unSHyhhRDSp_",
+          "name": "image 13",
+          "filePath": "../public/plasmic/bootcamp/images/image13.png"
+        },
+        {
+          "id": "rxpAsKGFYxqZ",
+          "name": "image 14",
+          "filePath": "../public/plasmic/bootcamp/images/image14.png"
+        },
+        {
+          "id": "gE4szRUMYp2D",
+          "name": "image 15",
+          "filePath": "../public/plasmic/bootcamp/images/image15.png"
+        },
+        {
+          "id": "bzn5zwFwXRNi",
+          "name": "image 16",
+          "filePath": "../public/plasmic/bootcamp/images/image16.png"
+        },
+        {
+          "id": "0K61qenhZLz-",
+          "name": "image 17",
+          "filePath": "../public/plasmic/bootcamp/images/image17.png"
+        },
+        {
+          "id": "pWgSodApg9uf",
+          "name": "image 18",
+          "filePath": "../public/plasmic/bootcamp/images/image18.png"
+        },
+        {
+          "id": "yAb2jUbP10yL",
+          "name": "image 19",
+          "filePath": "../public/plasmic/bootcamp/images/image19.png"
+        },
+        {
+          "id": "2HVxB3vNeRdr",
+          "name": "image 20",
+          "filePath": "../public/plasmic/bootcamp/images/image20.png"
+        },
+        {
+          "id": "8woS0x6osoOU",
+          "name": "image 21",
+          "filePath": "../public/plasmic/bootcamp/images/image21.png"
+        },
+        {
+          "id": "xixTVdZPCqGS",
+          "name": "image 22",
+          "filePath": "../public/plasmic/bootcamp/images/image22.png"
+        },
+        {
+          "id": "fCRShLMTW-R1",
+          "name": "image 23",
+          "filePath": "../public/plasmic/bootcamp/images/image23.png"
+        },
+        {
+          "id": "imEzajjODln4",
+          "name": "image 24",
+          "filePath": "../public/plasmic/bootcamp/images/image24.png"
+        },
+        {
+          "id": "RdNA4ODr6JRV",
+          "name": "image 25",
+          "filePath": "../public/plasmic/bootcamp/images/image25.png"
+        },
+        {
+          "id": "ls8oOGSZOlgx",
+          "name": "image 26",
+          "filePath": "../public/plasmic/bootcamp/images/image26.png"
+        },
+        {
+          "id": "Yg1F0fFZ62Op",
+          "name": "image 27",
+          "filePath": "../public/plasmic/bootcamp/images/image27.png"
+        },
+        {
+          "id": "dK5nar-_cK1p",
+          "name": "image 28",
+          "filePath": "../public/plasmic/bootcamp/images/image28.png"
+        },
+        {
+          "id": "Pl5WT0A-fvz8",
+          "name": "image 29",
+          "filePath": "../public/plasmic/bootcamp/images/image29.png"
+        },
+        {
+          "id": "y9KHlq-xvJF5",
+          "name": "image 30",
+          "filePath": "../public/plasmic/bootcamp/images/image30.png"
+        },
+        {
+          "id": "Rj2VlHTc3Tvu",
+          "name": "image 31",
+          "filePath": "../public/plasmic/bootcamp/images/image31.png"
+        },
+        {
+          "id": "As9cAZvfMoNp",
+          "name": "image 32",
+          "filePath": "../public/plasmic/bootcamp/images/image32.png"
+        },
+        {
+          "id": "eVRUkYAq8VP9",
+          "name": "image 33",
+          "filePath": "../public/plasmic/bootcamp/images/image33.png"
+        },
+        {
+          "id": "tRIOjjJd0qif",
+          "name": "image 34",
+          "filePath": "../public/plasmic/bootcamp/images/image34.png"
+        },
+        {
+          "id": "jOgxzSC4m18Z",
+          "name": "image 35",
+          "filePath": "../public/plasmic/bootcamp/images/image35.png"
+        },
+        {
+          "id": "wIQh1aG3RRla",
+          "name": "image 36",
+          "filePath": "../public/plasmic/bootcamp/images/image36.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "7hkFlEB79CeT",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "6J1-CqjS5LJS",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": []
+  },
   "wrapPagesWithGlobalContexts": true,
   "nextjsConfig": {
     "pagesDir": "../src/pages"
